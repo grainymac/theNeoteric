@@ -1,0 +1,17 @@
+.arts-page {
+    display: flex;
+    flex-direction: column;
+    margin: 0 40px;
+
+    .arts-title {
+        font-size: 74px;
+        margin: 5px 20px;
+    }
+
+    .arts-article-container {
+        display: flex;
+        flex-wrap: wrap;
+        width: 100%;
+        gap: 20px;
+    }
+}

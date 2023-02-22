@@ -1,0 +1,17 @@
+.science-page {
+    display: flex;
+    flex-direction: column;
+    margin: 0 40px;
+
+    .science-title {
+        font-size: 74px;
+        margin: 5px 20px;
+    }
+
+    .science-article-container {
+        display: flex;
+        flex-wrap: wrap;
+        width: 100%;
+        gap: 20px;
+    }
+}
