@@ -8,10 +8,8 @@ const ArticleCard = ({ title, abstract, url, datePublished, author }) => {
       <Link className='article-link' to={url}>
         <div className='article-card-container'>
           <h1 className='article-title'>{title}</h1>
-          <div className='byline-container'>
-            <small className='article-byline'>{author}</small>
-            <date>{datePublished}</date>
-          </div>
+          <small className='article-date'>Published: {datePublished}</small>
+          <small className='article-byline'>{author}</small>
           <p className='article-abstract'>{abstract}</p>
         </div>
       </Link>
