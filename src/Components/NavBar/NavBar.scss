@@ -1,8 +1,40 @@
 .navbar-container {
     background-color: #000;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    width: 100%;
 
     img {
         height: 150px;
         width: 150px;
+    }
+
+    nav {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+        align-items: center;
+        gap: 20px;
+        width: 80%;
+    }
+}
+
+.nav-link {
+    color: #FAEBD7;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 30px;
+
+    &:hover {
+        color: #7298AD;
+        cursor: grab;
+    }
+
+    &.active {
+        color: #21b9c1;
+        font-family: 'PT Mono', monospace;
+        text-transform: lowercase;
     }
 }
