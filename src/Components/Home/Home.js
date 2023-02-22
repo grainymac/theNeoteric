@@ -10,7 +10,7 @@ const Home = ({ home }) => {
   const allArticles = home.map((article) => {
     console.log(article, 'single article')
     return (
-      <ArticleCard title={article.title} abstract={article.abstract} url={article.url} datePublished={article.published_date} url={article.url} />
+      <ArticleCard title={article.title} abstract={article.abstract} url={article.url} datePublished={article.published_date} author={article.byline} />
   )
   return allArticles
 })
