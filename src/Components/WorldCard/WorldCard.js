@@ -1,8 +1,19 @@
 import React from 'react'
+import './WorldCard'
+import { Link } from 'react-router-dom'
 
-const WorldCard = () => {
+const WorldCard = ({ title, abstract, url, datePublished, author }) => {
   return (
-    <div>WorldCard</div>
+    <>
+      <Link target='_blank' className='world-link' to={url}>
+        <div className='world-card-container'>
+          <h1 className='world-title'>{title}</h1>
+          <small className='world-date'>Published: {datePublished}</small>
+          <small className='world-byline'>{author}</small>
+          <p className='world-abstract'>{abstract}</p>
+        </div>
+      </Link>
+    </>
   )
 }
 
