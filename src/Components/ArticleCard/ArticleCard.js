@@ -1,11 +1,21 @@
 import React from 'react'
 import './ArticleCard.scss'
+import { Link } from 'react-router-dom'
 
-const ArticleCard = ({ title, abstract, url, datePublished}) => {
+const ArticleCard = ({ title, abstract, url, datePublished, author }) => {
   return (
-    <div className='article-card-container'>
-      
-    </div>
+    <>
+      <Link className='article-link' to={url}>
+        <div className='article-card-container'>
+          <h1 className='article-title'>{title}</h1>
+          <div className='byline-container'>
+            <small className='article-byline'>{author}</small>
+            <date>{datePublished}</date>
+          </div>
+          <p className='article-abstract'>{abstract}</p>
+        </div>
+      </Link>
+    </>
   )
 }
 
