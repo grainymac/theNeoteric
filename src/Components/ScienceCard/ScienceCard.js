@@ -1,5 +1,5 @@
 import React from 'react'
-import './ScienceCard'
+import './ScienceCard.scss'
 import { Link } from 'react-router-dom'
 
 const ScienceCard = ({ title, abstract, url, datePublished, author }) => {

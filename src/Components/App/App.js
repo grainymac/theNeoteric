@@ -17,26 +17,25 @@ const App = () => {
   const [world, setWorld] = useState([])
   const [e, setError] = useState('')
 
-  const getAllArticles = () => {
-    getHomeArticles()
-      .then(data => setHome(data.results))
-      .catch(e => setError(e))
-
-    getArtsArticles()
-      .then(data => setArts(data.results))
-      .catch(e => setError(e))
-
-    getScienceArticles()
-      .then(data => setScience(data.results))
-      .catch(e => setError(e))
-
-    getUsArticles()
-      .then(data => setUs(data.results))
-      .catch(e => setError(e))
-
-    getWorldArticles()
-      .then(data => setWorld(data.results))
-      .catch(e => setError(e))
+  const getAllArticles = async () => {
+    try {
+      const homeData = await getHomeArticles();
+      setHome(homeData.results);
+  
+      const artsData = await getArtsArticles();
+      setArts(artsData.results);
+  
+      const scienceData = await getScienceArticles();
+      setScience(scienceData.results);
+  
+      const usData = await getUsArticles();
+      setUs(usData.results);
+  
+      const worldData = await getWorldArticles();
+      setWorld(worldData.results);
+    } catch (error) {
+      setError(error);
+    }
   }
 
   useEffect(() => {
@@ -45,6 +44,7 @@ const App = () => {
 
   return (
     <>
+    {e && e}
     <Routes>
       <Route path='/' index element={<Home home={home}/> } />
       <Route path='/arts' element={<Arts arts={arts}/> } />

@@ -4,17 +4,16 @@ import UsCard from '../UsCard/UsCard'
 
 const Us = ({ us }) => {
   
-  const usArticles = us.map((us) => {
+  const usArticles = us.map((article) => {
     return (
-      <UsCard title={us.title} abstract={us.abstract} url={us.url} datePublished={us.published_date} author={us.byline} key={us.created_date}/>
+      <UsCard title={article.title} abstract={article.abstract} url={article.url} datePublished={article.published_date} author={article.byline} key={article.created_date}/>
     )
-  return usArticles
 })
 
   return (
     <>
       <div className='us-page'>
-        <h1 className='us-title'>The Neoteric</h1>
+        <h1 className='us-title'>The United States</h1>
         <div className='us-article-container'>{usArticles}</div>
       </div>
     </>

@@ -8,13 +8,12 @@ const World = ({ world }) => {
     return (
       <WorldCard title={article.title} abstract={article.abstract} url={article.url} datePublished={article.published_date} author={article.byline} key={article.created_date}/>
     )
-  return worldArticles
 })
 
   return (
     <>
       <div className='world-page'>
-        <h1 className='world-title'>The Neoteric</h1>
+        <h1 className='world-title'>The World</h1>
         <div className='world-article-container'>{worldArticles}</div>
       </div>
     </>

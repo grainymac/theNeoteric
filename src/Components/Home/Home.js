@@ -10,7 +10,6 @@ const Home = ({ home }) => {
     return (
       <ArticleCard title={article.title} abstract={article.abstract} url={article.url} datePublished={article.published_date} author={article.byline} key={article.created_date}/>
     )
-  return allArticles
 })
 
   return (

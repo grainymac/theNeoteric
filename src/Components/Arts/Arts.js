@@ -8,7 +8,6 @@ const Arts = ({ arts }) => {
     return (
       <ArtsCard title={art.title} abstract={art.abstract} url={art.url} datePublished={art.published_date} author={art.byline} key={art.created_date}/>
     )
-  return artArticles
 })
 
   return (
