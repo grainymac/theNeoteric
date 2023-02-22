@@ -1,0 +1,10 @@
+.home-page {
+    display: flex;
+    flex-direction: column;
+    margin-left: 40px;
+
+    .home-title {
+        font-size: 74px;
+        margin: 5px 20px;
+    }
+}

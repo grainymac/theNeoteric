@@ -43,8 +43,6 @@ const App = () => {
     getAllArticles()
   },[])
 
-  console.log(science, 'what is this')
-
   return (
     <>
     <Routes>
