@@ -3,10 +3,10 @@ import { getHomeArticles, getArtsArticles, getScienceArticles, getUsArticles, ge
 import React, { useState, useEffect } from 'react'
 import { Routes, Route } from 'react-router-dom'
 import Home from '../Home/Home'
-import Arts from ''
-import Science from ''
-import Us from ''
-import World from ''
+import Arts from '../Arts/Arts'
+import Science from '../Science/Science'
+import Us from '../Us/Us'
+import World from '../World/World'
 
 
 const App = () => {
