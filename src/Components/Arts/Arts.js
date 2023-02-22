@@ -1,7 +1,7 @@
 import React from 'react'
 import './Arts.scss'
 
-const Arts = () => {
+const Arts = ({ arts }) => {
   return (
     <div>Arts</div>
   )
