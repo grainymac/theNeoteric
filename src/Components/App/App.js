@@ -1,6 +1,13 @@
 import './App.scss';
 import { getHomeArticles, getArtsArticles, getScienceArticles, getUsArticles, getWorldArticles } from '../../apiCalls'
 import React, { useState, useEffect } from 'react'
+import { Routes, Route } from 'react-router-dom'
+import Home from '../Home/Home'
+import Arts from ''
+import Science from ''
+import Us from ''
+import World from ''
+
 
 const App = () => {
   const [home, setHome] = useState([])
@@ -39,9 +46,15 @@ const App = () => {
   console.log(science, 'what is this')
 
   return (
-    <div className="app-page">
-
-    </div>
+    <>
+    <Routes>
+      <Route path='/' index element={<Home home={home}/> } />
+      <Route path='/arts' element={<Arts arts={arts}/> } />
+      <Route path='/science' element={<Science science={science}/> } />
+      <Route path='/us' element={<Us us={us}/> } />
+      <Route path='/world' element ={<World world={world}/> } />
+    </Routes>
+    </>
   );
 }
 
