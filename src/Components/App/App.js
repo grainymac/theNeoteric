@@ -16,6 +16,8 @@ const App = () => {
   const [us, setUs] = useState([])
   const [world, setWorld] = useState([])
   const [e, setError] = useState('')
+  const [searchQuery, setSearchQuery] = useState('')
+  const [filteredHome, setFilteredHome] = useState([]);
 
   const getAllArticles = async () => {
     try {
@@ -42,16 +44,24 @@ const App = () => {
     getAllArticles()
   },[])
 
+  const handleSearch = (event) => {
+    const query = event.target.value.toLowerCase();
+    const filteredHomeArticles = home.filter((article) => article.title.toLowerCase().includes(query));
+    setFilteredHome(filteredHomeArticles);
+    setSearchQuery(query);
+    };
+
+
   return (
     <>
-    {e && e}
-    <Routes>
-      <Route path='/' index element={<Home home={home}/> } />
-      <Route path='/arts' element={<Arts arts={arts}/> } />
-      <Route path='/science' element={<Science science={science}/> } />
-      <Route path='/us' element={<Us us={us}/> } />
-      <Route path='/world' element ={<World world={world}/> } />
-    </Routes>
+      {e && e}
+      <Routes>
+        <Route path='/' index element={<Home home={home} filteredHome={filteredHome} handleSearch={handleSearch} /> } />
+        <Route path='/arts' element={<Arts arts={arts}/> } />
+        <Route path='/science' element={<Science science={science}/> } />
+        <Route path='/us' element={<Us us={us} /> } />
+        <Route path='/world' element ={<World world={world}/> } />
+      </Routes>
     </>
   );
 }

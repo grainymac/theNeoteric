@@ -4,9 +4,12 @@ import ArtsCard from '../ArtsCard/ArtsCard'
 
 const Arts = ({ arts }) => {
 
+  let counter = 0
+
   const artArticles = arts.map((art) => {
+    counter++
     return (
-      <ArtsCard title={art.title} abstract={art.abstract} url={art.url} datePublished={art.published_date} author={art.byline} key={art.created_date}/>
+      <ArtsCard title={art.title} abstract={art.abstract} url={art.url} datePublished={art.published_date} author={art.byline} key={counter} />
     )
 })
 

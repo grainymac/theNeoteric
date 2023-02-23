@@ -3,10 +3,13 @@ import './Us.scss'
 import UsCard from '../UsCard/UsCard'
 
 const Us = ({ us }) => {
+
+  let counter = 0
   
   const usArticles = us.map((article) => {
+    counter++
     return (
-      <UsCard title={article.title} abstract={article.abstract} url={article.url} datePublished={article.published_date} author={article.byline} key={article.created_date}/>
+      <UsCard title={article.title} abstract={article.abstract} url={article.url} datePublished={article.published_date} author={article.byline} key={counter}/>
     )
 })
 
