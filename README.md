@@ -50,7 +50,7 @@ The Neoteric is a news article application that has a sleek duochrome style simi
 ### Local Installation
 1. Clone the repo
    ```sh
-   git@github.com:grainymac/theBored.git
+   git@github.com:grainymac/theNeoteric.git
    ```
 2. Enter the directory and install NPM packages
    ```sh
