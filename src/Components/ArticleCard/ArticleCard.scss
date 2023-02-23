@@ -46,3 +46,9 @@
         font-size: 19px;
     }
 }
+
+@media(max-width: 480px) {
+    .article-card-container {
+        margin: 0 30px;
+    }
+}

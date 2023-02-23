@@ -31,3 +31,35 @@
         font-size: 16px;
     }
 }
+
+@media(max-width: 480px) {
+    .title-search-container {
+        flex-direction: column;
+        gap: 0;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .home-page {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 100%;
+        margin: 0;
+    }
+
+    .search-bar {
+        margin-bottom: 20px;
+    }
+}
+
+@media(max-width: 768px) {
+    .title-search-container {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .search-bar {
+        margin-bottom: 20px;
+    }
+}

@@ -38,3 +38,31 @@
         text-transform: lowercase;
     }
 }
+
+@media(max-width: 768px) {
+    .navbar-container {
+        width: 100%;
+    }
+
+    .nav-link {
+        font-size: 14px;
+    }
+}
+
+@media(max-width: 480px) {
+    .navbar-container {
+        width: fit-content;
+        flex-wrap: wrap;
+        justify-content: center;
+        margin: 0;
+
+        nav {
+            margin: 0;
+            text-align: center;
+        }
+    }
+
+    .nav-link {
+        margin: 0;
+    }
+}
