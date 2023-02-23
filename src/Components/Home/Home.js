@@ -21,7 +21,7 @@ const Home = ({ home, filteredHome, handleSearch }) => {
       <div className='home-page'>
         <div className='title-search-container'>
           <h1 className='home-title'>The Neoteric</h1>
-          <input className='search-bar' type="text" placeholder="Search articles" onChange={handleSearch} />
+          <input className='search-bar' type="text" placeholder="Search articles..." onChange={handleSearch} />
         </div>
         <div className='article-container'>{allArticles}</div>
       </div>
