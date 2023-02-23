@@ -7,6 +7,7 @@ import Arts from '../Arts/Arts'
 import Science from '../Science/Science'
 import Us from '../Us/Us'
 import World from '../World/World'
+import BadURL from '../BadURL/BadURL'
 
 
 const App = () => {
@@ -60,7 +61,8 @@ const App = () => {
         <Route path='/arts' element={<Arts arts={arts}/> } />
         <Route path='/science' element={<Science science={science}/> } />
         <Route path='/us' element={<Us us={us} /> } />
-        <Route path='/world' element ={<World world={world}/> } />
+        <Route path='/world' element={<World world={world}/> } />
+        <Route path='/*' element={<BadURL />} />
       </Routes>
     </>
   );

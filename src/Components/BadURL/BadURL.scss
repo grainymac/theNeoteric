@@ -1,0 +1,15 @@
+.badURL-container {
+    margin: 40px;
+}
+
+.home-button {
+    background-color: #000;
+    color: antiquewhite;
+    height: 30px;
+    width: 80px;
+    border-radius: 1rem;
+
+    &:hover {
+        cursor: pointer;
+    }
+}
