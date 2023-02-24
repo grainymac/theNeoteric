@@ -10,40 +10,31 @@ The Neoteric is a news article application that has a sleek duochrome style simi
 - Refine Git workflow and time/task management behaviours
 
 ## Technologies
-- [![JavaScript](https://img.shields.io/badge/javascript-%23323330.svg?style=for-the-badge&logo=javascript&logoColor=%23F7DF1E)](https://www.javascript.com/)
-  - [![React](https://img.shields.io/badge/react-%23323330.svg?style=for-the-badge&logo=react&logoColor=%23F7DF1E)](https://reactjs.org/)
-  - [![Router](https://img.shields.io/badge/router-%23323330.svg?style=for-the-badge&logo=react-router&logoColor=%CA4245)](https://reactrouter.com/en/main)
-- [![HTML5](https://img.shields.io/badge/html5-%23E34F26.svg?style=for-the-badge&logo=html5&logoColor=white)](https://developer.mozilla.org/en-US/docs/Glossary/HTML5)
-- [![SCSS](https://img.shields.io/badge/SCSS-%231572B6.svg?style=for-the-badge&logo=css3&logoColor=white)](https://www.css3.info/)
-- [![MUI](https://img.shields.io/badge/mui-007FFF.svg?style=for-the-badge&logo=mui&logoColor=white)](https://mui.com/)
-- [![Adobe Illustrator](https://img.shields.io/badge/adobe_illustrator-FF9A00.svg?style=for-the-badge&logo=adobe-illustrator&logoColor=black)](https://www.adobe.com/products/illustrator.html)
+
 
 ## Illustrations
 
+<img width="1210" alt="Screenshot 2023-02-24 at 8 19 33 AM" src="https://user-images.githubusercontent.com/106535343/221201636-d6980fe3-a60d-4805-ab0b-d7558f65ecf0.png">
 
 
 ## Features
-- 
-- 
-- 
-- 
-- 
-- 
+- Live Search on Home Page 
+- Sleek duochrome design
+- Responsive Layout for Mobile and Desktop
 
 ## Possible Future Extensions
 - User Logins
 - Include multimedia
-- 
-- 
+- Light and Dark Mode
+- Cypress Testing
 
 #### Milestones
 - Doing live search bar
-
+- Practiced effective time/task management in preparing/doing/finishing the project
 
 #### Challenges 
-- 
-- 
-- 
+- Time management
+- Having a unique ID
 
 ### Deployed at [The Neoteric]()
 
