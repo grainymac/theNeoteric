@@ -10,6 +10,14 @@ The Neoteric is a news article application that has a sleek duochrome style simi
 - Refine Git workflow and time/task management behaviours
 
 ## Technologies
+![React][React-shield]
+![JavaScript][JavaScript-shield]
+![CSS][CSS-shield]
+![SCSS][SCSS-shield]
+![HTML5][HTML-shield]
+![NPM][NPM-shield]
+![Illustrator][Illustrator-shield]
+
 
 
 ## Illustrations
@@ -61,3 +69,13 @@ The Neoteric is a news article application that has a sleek duochrome style simi
 ## Project Specs
   - The project spec & rubric can be found [here](https://mod4.turing.edu/projects/take_home/take_home_fe)
 
+[React-shield]: https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB
+[Apollo-GraphQL-shield]: https://img.shields.io/badge/-ApolloGraphQL-311C87?style=for-the-badge&logo=apollo-graphql
+[JavaScript-shield]: https://img.shields.io/badge/javascript%20-%23323330.svg?&style=for-the-badge&logo=javascript&logoColor=%23F7DF1E
+[CSS-shield]: https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white
+[HTML-shield]: https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white
+[Cypress-shield]: https://img.shields.io/badge/-cypress-%23E5E5E5?style=for-the-badge&logo=cypress&logoColor=058a5e
+[NPM-shield]: https://img.shields.io/badge/npm-CB3837?style=for-the-badge&logo=npm&logoColor=white
+[Vercel-shield]: https://img.shields.io/badge/vercel-%23000000.svg?style=for-the-badge&logo=vercel&logoColor=white
+[SCSS-shield]: https://img.shields.io/badge/SCSS-100000?style=for-the-badge&logo=SASS&logoColor=FFFFFF&labelColor=F87FFF&color=F87FFF
+[Illustrator-shield]: https://img.shields.io/badge/Adobe_Illustrator-100000?style=for-the-badge&logo=AdobeIllustrator&logoColor=000000&labelColor=EA7101&color=EA7101
