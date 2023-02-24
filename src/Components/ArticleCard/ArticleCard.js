@@ -5,7 +5,7 @@ import { Link } from 'react-router-dom'
 const ArticleCard = ({ title, abstract, url, datePublished, author, noInfo }) => {
   return (
     <>
-      <Link className='article-link' to={url}>
+      <Link target='_blank' className='article-link' to={url}>
         <div className='article-card-container'>
           <h1 className='article-title'>{title}</h1>
           <h1 className='article-error'>{noInfo}</h1>
