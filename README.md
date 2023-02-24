@@ -29,6 +29,8 @@ The Neoteric is a news article application that has a sleek duochrome style simi
 - Live Search on Home Page 
 - Sleek duochrome design
 - Responsive Layout for Mobile and Desktop
+- [Project Board](https://github.com/users/grainymac/projects/2/views/1)
+- [Figma Wireframe](https://www.figma.com/file/xRmUFXAqkHtwEEqvkYrwgW/Untitled?node-id=0%3A1&t=UtHSmBvkO65XeTl0-0)
 
 ## Possible Future Extensions
 - User Logins
