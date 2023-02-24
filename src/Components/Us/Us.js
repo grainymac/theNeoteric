@@ -5,9 +5,13 @@ import UsCard from '../UsCard/UsCard'
 const Us = ({ us }) => {
 
   let counter = 0
+  let noInfo = 'there is no available information for this title yet'
   
   const usArticles = us.map((article) => {
     counter++
+    if (!article.title) {
+      return <UsCard noInfo={noInfo} counter={counter}/>
+    }
     return (
       <UsCard title={article.title} abstract={article.abstract} url={article.url} datePublished={article.published_date} author={article.byline} key={counter}/>
     )

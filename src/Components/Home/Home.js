@@ -8,9 +8,13 @@ const Home = ({ home, filteredHome, handleSearch }) => {
   const articlesToRender = filteredHome.length > 0 ? filteredHome : home;
 
   let counter = 0
+  let noInfo = 'there is no available information for this title yet'
 
   const allArticles = articlesToRender.map((article) => {
     counter++
+    if (!article.title) {
+      return <ArticleCard noInfo={noInfo} counter={counter}/>
+    }
     return (
       <ArticleCard title={article.title} abstract={article.abstract} url={article.url} datePublished={article.published_date} author={article.byline} key={counter}/>
     )
