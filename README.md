@@ -46,7 +46,7 @@ The Neoteric is a news article application that has a sleek duochrome style simi
 - Time management
 - Having a unique ID
 
-### Deployed at [The Neoteric]()
+### Deployed at [The Neoteric](https://the-neoteric.vercel.app/)
 
 ### Local Installation
 1. Clone the repo
